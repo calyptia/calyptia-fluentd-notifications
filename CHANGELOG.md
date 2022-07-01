@@ -6,7 +6,7 @@
 
 * Upgrade Fluentd to v1.15.0
   * In this version of Fluentd, it starts to handle YAML configuration.
-* Use vanilla fluent-plugin-splunk-hec v1.12.13 which is resloved Ruby 3 compatibility issues
+* Use the vanilla fluent-plugin-splunk-hec v1.12.13 which resloves Ruby 3 compatibility issues
 
 ### Core component
 
@@ -291,7 +291,7 @@ On Windows
 
 * Update Fluentd version to v1.14.5
 * Including fixes for fluent-plugin-opensearch
-* Update Elasticsearch 8 compatible flunet-plugin-elasticsearch
+* Update to Elasticsearch 8 compatible fluent-plugin-elasticsearch
 
 ### Core component
 
@@ -561,7 +561,7 @@ On Windows
 
 * Update using Fluentd to v1.14.2 vanilla
 * Update Elasticsearch related gems and plugin
-  * Note that this version blocks for communicating with OpenSearch. We'll support OpenSearch later with another plugin.
+  * Note that this version does not support OpenSearch.
 
 ### Core component
 
