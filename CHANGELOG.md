@@ -5,7 +5,7 @@
 ### News
 
 * Upgrade Fluentd to v1.15.0
-  * In this version of Fluentd, it starts to handle YAML configuration.
+  * This version of Fluentd provides support for YAML configuration as well.
 * Use the vanilla fluent-plugin-splunk-hec v1.12.13 which resloves Ruby 3 compatibility issues
 
 ### Core component
